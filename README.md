@@ -8,10 +8,10 @@ Each abstract has one or more annotations. Each annotation is a pair made by a p
 
 The output file contains the following information for each abstract and each submission:
 
-1. tot_labels "The number of annotations to be identified"
+1. *tot_labels* "The number of annotations to be identified"
 
-2. positions "A string vector of length equal to the number of annotations to be identified with zeros and ones, where 1 indicates a true positive, and 0 a missing or false positive annotation"
+2. *positions* "A string vector of length equal to the number of annotations to be identified with zeros and ones, where 1 indicates a true positive, and 0 a missing or false positive annotation"
 
-3. true_positives "The number of correct annotations (i.e., the sum of ones in the positions)"
+3. *true_positives* "The number of correct annotations (i.e., the sum of ones in the positions)"
 
-4. total_positives "The number of true positives plus the number of false positives"
+4. *total_positives* "The number of true positives plus the number of false positives"
